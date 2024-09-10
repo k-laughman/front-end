@@ -1,9 +1,11 @@
 name: checkov
 on:
   pull_request:
+    branches:
+      - master
   push:
     branches:
-      - main    
+      - master    
 jobs:
   scan:
     runs-on: ubuntu-latest 
