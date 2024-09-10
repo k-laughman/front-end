@@ -20,7 +20,7 @@ jobs:
       id: checkov
       uses: bridgecrewio/checkov-action@master
       with:
-        directory: test/
+        directory: scripts/
         #soft_fail: true
         #api-key: ${{ secrets.BC_API_KEY }}
       #env:
